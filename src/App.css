@@ -65,7 +65,7 @@ body {
 .footer-container {
   height: 180px;
     background: url(http://shrimataji.org/themes/shri15/images/layout/Flower.png) center center no-repeat;
-    width: 1020px;
+    max-width: 1020px;
     margin: 0 auto;
     position: relative;
     padding: 0;
@@ -115,6 +115,16 @@ body {
     background-color: #ecf5ff;
     font-size: 8px;
   }
+  .footer-container {
+    height: 180px;
+      background: url(http://shrimataji.org/themes/shri15/images/layout/Flower.png) center center no-repeat;
+      max-width: 900px;
+  }
+  .footer-logo {
+    background: url(http://shrimataji.org/themes/shri15/images/layout/FooterLogo.png) 0 0 no-repeat;
+      width: 267px;
+      left: 300px;
+  }
 
   
 }
@@ -124,6 +134,31 @@ body {
     background-color: #ecf5ff;
     font-size: 6px;
   }
- 
-  
+  .footer-container {
+    height: 180px;
+      background: url(http://shrimataji.org/themes/shri15/images/layout/Flower.png) center center no-repeat;
+      max-width: 768px;
+  }
+  .footer-logo {
+    background: url(http://shrimataji.org/themes/shri15/images/layout/FooterLogo.png) 0 0 no-repeat;
+      width: 200px;
+      left: 150px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  :root {
+    background-color: #ecf5ff;
+    font-size: 6px;
+  }
+  .footer-container {
+    height: 180px;
+      background: url(http://shrimataji.org/themes/shri15/images/layout/Flower.png) center center no-repeat;
+      max-width: 500px;
+  }
+  .footer-logo {
+    background: url(http://shrimataji.org/themes/shri15/images/layout/FooterLogo.png) 0 0 no-repeat;
+      width: 150px;
+      left: 100px;
+  }
 }
