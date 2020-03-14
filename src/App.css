@@ -1,0 +1,129 @@
+:root {
+  background-color: #ecf5ff;
+  font-size: 10px;
+}
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+body {
+  background-color: #FBD6C6;
+  margin: 0;
+  padding: 0;
+  font: 13px sans-serif;
+}
+
+.space {
+  margin: 0 auto;
+  max-width: 1020px;
+}
+
+.royal_container {
+  padding: 13px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-bottom: 0;
+}
+
+.royal_img {
+  width: 100%;
+  height: 100%;
+}
+
+.royal_img img {
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+}
+
+.main_nav_container {
+  border: none;
+}
+
+.main_nav {
+  display: flex;
+  justify-content: stretch;
+  
+}
+
+.main_nav a {
+  width: 16.667%;
+  color: #972d1b;
+  font-size: 2rem;
+  border-right: 1px solid #fff;
+  border-radius: 0;
+}
+
+.search-img-container {
+  margin: 0;
+  font-size: 0;
+}
+
+.footer-container {
+  height: 180px;
+    background: url(http://shrimataji.org/themes/shri15/images/layout/Flower.png) center center no-repeat;
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: normal 12px/12px 'PT Serif', serif;
+    color: #c3775c;
+    display: block;
+
+}
+
+
+.footer-logo {
+  background: url(http://shrimataji.org/themes/shri15/images/layout/FooterLogo.png) 0 0 no-repeat;
+    width: 267px;
+    height: 46px;
+    position: absolute;
+    left: 373px;
+    top: 53px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: normal 12px/12px 'PT Serif', serif;
+    color: #c3775c;
+
+}
+
+.footer-tagline {
+  position: absolute;
+  top: 88px;
+  width: 100%;
+  text-align: center;
+  color: #972d1b;
+  font: normal 14px/18px 'PT Serif', serif;
+  margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+@media only screen and (max-width: 900px) {
+  :root {
+    background-color: #ecf5ff;
+    font-size: 8px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 768px) {
+  :root {
+    background-color: #ecf5ff;
+    font-size: 6px;
+  }
+ 
+  
+}

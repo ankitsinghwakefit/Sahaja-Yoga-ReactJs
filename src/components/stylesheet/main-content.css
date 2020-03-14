@@ -1,0 +1,289 @@
+:root {
+    font-size: 10px;
+  }
+  * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+.flex-parent-box{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    color: #972d1b
+}
+.main-content-first-container {
+    background-color: #FFFBF0;
+    margin: 0;
+    padding: 15px;
+}
+
+.Item-first-about-mother {
+    width: 65%;
+}
+
+.about-mother h1 {
+    color: #343434;
+    margin: 0 0 4px;
+    padding: 0;
+    font: normal 3.7rem 'PT Serif', serif;
+    font-weight: 500;
+}
+
+.about-mother h2 {
+    color: #343434;
+    margin: 0 0 4px;
+    padding: 0;
+    font: normal 2.2rem 'PT Serif', serif;
+}
+
+#about-mother-para {
+    font: normal 1.8rem 'PT Serif', serif;
+    color: #972d1b
+}
+
+.about-mother p {
+    color: #a6311e;
+    font: normal 1.5rem 'PT Serif', serif;
+}
+
+.para-links {
+    text-decoration: none;
+    line-height: 10px;
+    color: #ee3f44;
+    font: normal 1.5rem 'PT Serif', serif;
+}
+
+.image-quote-box {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #972d1b;
+    font: normal 1.5rem 'PT Serif', serif;
+}
+
+.mother-image {
+    width: 30%;
+    height: 300px;
+    
+}
+
+.mother-image img {
+    width: 100%;
+    height: 80%;
+    padding-left: 10px;
+}
+
+.mother-quote {
+    width: 65%;
+    font: normal 1.45rem 'PT Serif', serif;
+    color: #ff8700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 4px 10px 10px 15px;
+}
+
+
+.feature-container {
+    display: block;
+    background: url(http://shrimataji.org/themes/shri15/images/content/featureLine.png) left center repeat-x;
+    color: #972d1b;
+    font: normal 1.5rem 'PT Serif', serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    
+}
+.feature-image-container {
+    display: inline-block;
+    background: url(http://shrimataji.org/themes/shri15/images/content/featureLineMask.png) left center repeat-x;
+    text-align: center;
+    padding: 0 10px;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    margin: 0;
+    color: #972d1b;
+    font: normal 2rem 'PT Serif', serif;
+    text-transform: uppercase;
+}
+
+.search-and-work-box {
+    display: flex;
+    color: #972d1b;
+    font: normal 1.3rem 'PT Serif', serif;
+}
+
+.search-box {
+    width: 60%;
+    padding: 30px;
+    color: #ee3f44;
+}
+
+.search-box span {
+    color: #ee3f44;
+}
+
+.mother-work-box {
+    width: 40%;
+    padding: 20px;
+    color: #972d1b;
+    font: normal 14px/19px 'PT Serif', serif;
+}
+
+.mother-work-box h3 {
+    color: #972d1b;
+    font: normal 24px/1.2em 'PT Serif', serif;
+    padding: 0;
+    margin: 0 0 3px;
+}
+
+#span-london {
+    color: #d97a36;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.mother-work-box a {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    font: normal 13px/17px 'PT Serif',serif;
+    font-style: italic ;
+    margin: 0;
+    width: auto;
+    color: #fff;
+    border: 0px;
+    border-bottom: 1px solid #a1311d;
+    border-top: 1px solid #a1311d;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+    border-radius: 10px;
+    background-color: #a1311d;
+    float: right;
+    padding: 1px 10px 2px 20px;
+    border-collapse: collapse;
+}
+
+.mother-work-box span {
+    background: url(http://shrimataji.org/themes/shri15/images/layout/arrow-button.png) right 5px no-repeat;
+    padding: 0 20px 0 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font: normal 13px/17px 'PT Serif',serif;
+    font-style: italic ;
+    color: #fff;
+    border-collapse: collapse;
+}
+
+.Item-second-video-archive {
+    width: 25%;
+    padding: 25px;
+}
+
+.likes-btn {
+    height: 24px;
+    position: relative;
+    z-index: 90;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font: 13px sans-serif;
+    line-height: 1.22;
+
+}
+
+.video-box {
+    display: block;
+    padding: 40px 0 0 0;
+    font: normal 18px/30px 'PT Serif',serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #343434;
+    text-align: center;
+    margin: 0;
+    background: transparent;
+}
+
+.video-box a {
+    color: #343434;
+}
+
+@media only screen and (max-width: 900px) {
+    :root {
+        font-size: 8px;
+      }
+    .flex-parent-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .Item-first-about-mother {
+        width: 100%;
+    }
+    .image-quote-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .mother-image {
+        width: 100%;
+        height: 300px;
+        
+    }
+    .mother-quote {
+        width: 100%;
+    }
+    .Item-second-video-archive {
+        width: 100%;
+        padding: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    :root {
+        font-size: 6px;
+      }
+    .flex-parent-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .Item-first-about-mother {
+        width: 100%;
+    }
+    .image-quote-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .mother-image {
+        width: 100%;
+        height: 300px;
+        
+    }
+    .mother-quote {
+        width: 100%;
+    }
+    .Item-second-video-archive {
+        width: 100%;
+        padding: 25px;
+    }
+
+}
+
